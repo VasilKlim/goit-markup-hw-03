@@ -1,0 +1,175 @@
+:root {
+    --primary-text-color: #212121;
+    --secondery-text-color: #757575;
+    --activ-text-color: #2196f3;
+  }
+
+body {
+    background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+    background-color: #ffffff;
+  }
+  
+  .header-link {
+    color: var(--primary-text-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  span {
+    color: var(--activ-text-color);
+  }
+
+  .nav-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-top: 1032px;
+    padding-bottom: 32px;
+  }
+  .nav-link:hover,
+  .header-mail:hover,
+  .header-phone:hover,
+  .nav-link:focus,
+  .header-mail:focus,
+  .header-phone:focus {
+    color: var(--activ-text-color);
+  }
+  
+  .header-phone,
+  .header-mail {
+    color: var(--secondery-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+/* Секція Hero */
+
+.hero,
+.footer {
+    background-color: #2F303A;
+    width: 1230px;
+}
+
+.hero-title {
+color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+min-width: 696px;
+padding-top: 200px;
+padding-bottom: 30px;
+
+} 
+
+.hero-btn {
+    color: #FFFFFF;
+    background-color: var(--activ-text-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    margin-bottom: 200px;
+}
+
+.advantage-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-descr {
+    color: var(--secondery-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.aurwork-title,
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-descr {
+    color: var(--secondery-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.footer-link {
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  
+   .footer-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .address {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-mail,
+  .footer-phone {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+  
