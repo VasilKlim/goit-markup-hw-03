@@ -11,14 +11,25 @@ body {
   letter-spacing: 0.03em;
 }
 
-.container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
+h1, h2, h3, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.header {
-    background-color: #ffffff;
+.container {
+  width: 1600px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  align-items: center;
+  }
+
+  .header-container, .nav-list {
+  display: flex;
+  align-items: center;
   }
   
   .header-link {
@@ -30,6 +41,8 @@ body {
     text-decoration: none;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-left: 215px;
+    margin-right: 93px;
   }
   
   span {
@@ -43,8 +56,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding-top: 1032px;
-    padding-bottom: 32px;
+    margin-right: 50px;
+    
+
   }
   .nav-link:hover,
   .header-mail:hover,
@@ -55,6 +69,15 @@ body {
     color: var(--activ-text-color);
   }
   
+  .header-contact {
+    display: flex;
+    margin-right: 0;
+  }
+
+  .header-phone {
+    margin-right: 100px;
+  }
+
   .header-phone,
   .header-mail {
     color: var(--secondery-text-color);
@@ -64,16 +87,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
+}
 /* Секція Hero */
 
 .hero,
 .footer {
     background-color: #2F303A;
-    width: 1230px;
+    width: 1600px;
+    height: 600px;
 }
 
 .hero-title {

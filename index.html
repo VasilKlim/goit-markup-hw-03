@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="./css/styles2.css" rel="stylesheet" />
+    <!-- Modern-normalise -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- посилання на css -->
+    <link href="./css/styles2.css" rel="stylesheet" />
     <style>
       li {
         list-style-type: none;
@@ -18,8 +22,8 @@
 
   <body>
     <!-- Хедер -->
-    <div class="container">
-    <header class="header">
+      <header class="header">
+      <div class="container header-container">
       <a class="header-link" href="WebStudio"><span>Web</span>Studio</a>
       <nav class="nav">
         <ul class="nav-list">
@@ -34,17 +38,23 @@
           </li>
         </ul>
       </nav>
+
+      <div class="header-contact"> 
       <a class="header-mail" href="mail:info@devstudio.com"
         >info@devstudio.com</a
       >
       <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+    </div>
+    </div>
     </header>
-  </div>
+  
     <main>
       <!-- Секція Hero  -->
       <section class="hero">
+        <div class="conteiner-hero">
         <h1 class="hero-title">Эффективные решения<br/> для вашего бизнеса</h1>
         <button class="hero-btn" type="button">Заказать услугу</button>
+      </div>
       </section>
       <!-- Переваги роботи -->
       <section class="advantage">
