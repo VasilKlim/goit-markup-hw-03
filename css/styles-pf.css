@@ -1,0 +1,125 @@
+:root {
+  --primary-text-color: #212121;
+  --secondery-text-color: #757575;
+  --activ-text-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-link {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+span {
+  color: var(--activ-text-color);
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.header-mail:hover,
+.header-phone:hover,
+.nav-link:focus,
+.header-mail:focus,
+.header-phone:focus {
+    color: var(--activ-text-color);
+  }
+
+.header-phone,
+.header-mail {
+  color: var(--secondery-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.pfol-btn {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.pfol-btn:hover,
+.pfol-btn:focus {
+  color: #ffffff;
+  background-color: var(--activ-text-color);
+}
+
+.pfol-btn{
+  cursor: pointer;
+}
+
+.images-title {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.images-descr {
+  color: var(--secondery-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+ .footer-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
