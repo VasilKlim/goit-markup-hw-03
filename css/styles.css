@@ -101,15 +101,6 @@ ul {
 }
 
 /* Секція Hero */
-.conteiner-hero,
-.footer {
-  display: flex;  
-  background-color: #2F303A;
-  width: 1200px;
-  height: 600px;
-  align-items: center;
-}
-
 .hero-title {
 min-width: 696px;
 padding-top: 200px;
