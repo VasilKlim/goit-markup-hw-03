@@ -16,6 +16,10 @@ h1, h2, h3, p, ul {
   margin-bottom: 0;
 }
 
+ul {
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   height: 80px;
@@ -45,15 +49,21 @@ h1, h2, h3, p, ul {
   span {
     color: var(--activ-text-color);
   }
+  
+  .nav-list .nav-item + .nav-item {
+    margin-left: 50px; 
+  } 
 
-  .nav-link {
+   .nav-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin-right: 50px;
   }
 
   .nav-link:hover,
@@ -67,12 +77,12 @@ h1, h2, h3, p, ul {
   
   .header-contact {
     display: flex;
-    align-items: center;
-    margin-right: 0;
+    display: block;
+    margin-left: 330px;
   }
 
-  .header-phone {
-    margin-right: 100px;
+  .header-mail {
+    margin-right: 50px;
   }
 
   .header-phone,
@@ -85,10 +95,22 @@ h1, h2, h3, p, ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.header-phone {
+  margin: 0;
+}
+
 /* Секція Hero */
-.hero,
+/* .hero {
+  width: 1600px;
+  height: 600px;
+  background-color: #2F303A;
+  align-items: center; */
+}
+
+.conteiner-hero,
 .footer {
-    background-color: #2F303A;
+  display: flex;  
+  background-color: #2F303A;
     width: 1200px;
     height: 600px;
     align-items: center;
@@ -105,7 +127,8 @@ text-transform: uppercase;
 min-width: 696px;
 padding-top: 200px;
 padding-bottom: 30px;
-
+margin-left: auto;
+margin-right: auto;
 } 
 
 .hero-btn {
@@ -171,6 +194,10 @@ margin-bottom: 94px;
 .aurwork-item {
   margin-right: 30px;
   margin-bottom: 188px;
+}
+
+.container-team:last-child {
+  margin-right: 0;
 }
 
 .team-list {
