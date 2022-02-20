@@ -140,7 +140,7 @@ text-transform: uppercase;
 /* Секція Портфоліо */
 .advantage-list {
 display: flex;
-margin-left: 215px; 
+justify-content: center;
 margin-bottom: 94px;
 }
 
@@ -166,8 +166,7 @@ margin-bottom: 94px;
 /* Секція Чим ми займаємося */
 .aurwork-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .aurwork-title,
@@ -193,8 +192,7 @@ margin-bottom: 94px;
 
 .team-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto; 
+  justify-content: center; 
 }
 
 .team-item {
