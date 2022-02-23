@@ -101,13 +101,13 @@ ul {
 .conteiner-hero {
   width: 1200px;
   padding: 200px 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-title {
 min-width: 696px;
-padding-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
+margin-bottom: 30px;
 
 color: green;
 font-weight: 900;
@@ -140,8 +140,12 @@ text-transform: uppercase;
 /* Секція Портфоліо */
 .advantage-list {
 display: flex;
-justify-content: center;
+width: 1200px;
 padding-top: 94px;
+padding-left: 15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .advantage-item {
@@ -169,16 +173,20 @@ padding-top: 94px;
     line-height: 1.71;
 }
 /* Секція Чим ми займаємося */
+.aurwork-container {
+display: flex;
+flex-direction: column;
+padding: 94px 15px;
+}
+
 .aurwork-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .aurwork-title,
 .team-title {
-  margin-top: 94px;  
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 
     font-weight: bold;
     font-size: 36px;
@@ -192,21 +200,26 @@ padding-top: 94px;
 }
 
 /* Секція Наша команда */
-.team-list {
-  display: flex;
-  justify-content: center;
-  width: 1200px; 
-  padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+.team-container {
+display: flex;
+flex-direction: column;
+width: 1200px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding: 94px 15px;
 }
 
-.container-team:last-child {
-  margin-right: 0;
+.team-list {
+  display: flex;
+  
 }
 
 .team-item {
-margin-right: 30px;
+  margin-right: 30px;
+  }
+
+.team-item:last-child {
+  margin-right: 0;
 }
 
 .team-name {
@@ -251,8 +264,7 @@ margin-top: 9px;
   }
 
    .footer-list {
-    padding-top: 20px;
-    margin: 0;
+    margin: 20px 0 0 0;
 
     font-family: Roboto;
     font-style: normal;
