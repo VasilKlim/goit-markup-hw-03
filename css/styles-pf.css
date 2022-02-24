@@ -97,19 +97,15 @@ ul {
   }
 
   /* Портфоліо */
-.portfolio-container{
-display: flex;
-width: 1200px;
-padding: 94px 15px;
-margin-left: auto;
-margin-right: auto;
-  }
-
 .pfol-list {
   display: flex;
   justify-content: center;
+  width: 1200px;
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pfol-list .pfol-item + .pfol-item {
@@ -145,7 +141,8 @@ margin-right: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  padding-bottom: 94px;
 }
 
 .images-item {
