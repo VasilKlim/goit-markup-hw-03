@@ -23,8 +23,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   align-items: center;
   }
 
@@ -137,15 +136,14 @@ text-transform: uppercase;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-/* Секція Портфоліо */
+/* Секція Переваги роботи */
+.advantage, .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantage-list {
 display: flex;
-width: 1200px;
-padding-top: 94px;
-padding-left: 15px;
-padding-right: 15px;
-margin-right: auto;
-margin-left: auto;
 }
 
 .advantage-item {
@@ -173,10 +171,13 @@ margin-left: auto;
     line-height: 1.71;
 }
 /* Секція Чим ми займаємося */
+.aurwork {
+  padding-bottom: 94px;
+}
+
 .aurwork-container {
 display: flex;
 flex-direction: column;
-padding: 94px 15px;
 }
 
 .aurwork-list {
@@ -192,7 +193,6 @@ padding: 94px 15px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    
 }
 
 .aurwork-list .aurwork-item + .aurwork-item {
@@ -203,15 +203,10 @@ padding: 94px 15px;
 .team-container {
 display: flex;
 flex-direction: column;
-width: 1200px; 
-  margin-right: auto;
-  margin-left: auto;
-  padding: 94px 15px;
 }
 
 .team-list {
   display: flex;
-  
 }
 
 .team-item {
@@ -239,12 +234,12 @@ width: 1200px;
     text-align: center;
 }
 /* Футер */
+.footer {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
 .footer-container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 15px;
-  
   background-color: #212121;
 }
 
