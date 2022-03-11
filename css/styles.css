@@ -237,6 +237,8 @@ flex-direction: column;
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
+
+background-color: #212121;
 }
 
 .footer-container {
